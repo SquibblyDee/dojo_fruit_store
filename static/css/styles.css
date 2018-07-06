@@ -1,0 +1,45 @@
+*{
+    outline: 1px solid red;
+}
+
+.fruits{
+    display: inline-block
+}
+
+.fruit{
+    display: inline-block;
+    width: 175px;
+    height: 175px;
+}
+
+#apple{
+    background-image: url("/static/img/apple.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: auto 101%;
+    vertical-align: top;
+}
+
+#blackberry{
+    background-image: url("/static/img/blackberry.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 96%;
+    vertical-align: top;
+}
+
+#raspberry{
+    background-image: url("/static/img/raspberry.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 98%;
+    vertical-align: top;
+}
+
+#strawberry{
+    background-image: url("/static/img/strawberry.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 96%;
+    vertical-align: top;
+}
