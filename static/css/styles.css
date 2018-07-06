@@ -1,7 +1,4 @@
-*{
-    outline: 1px solid red;
-}
-
+/* Another external CSS file because I'm terrified of messing with the Bootstrap one */
 .fruits{
     display: inline-block
 }
@@ -10,6 +7,7 @@
     display: inline-block;
     width: 175px;
     height: 175px;
+    margin-left: 10px;
 }
 
 #apple{

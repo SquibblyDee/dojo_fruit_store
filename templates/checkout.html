@@ -58,15 +58,15 @@
                 <h4 class="mb-3">Your Information</h4>
                 <div class="row">
                     <div class="col-md-6 mb-3">
-                        First Name: Michael
+                        <p>First Name: {{ request.form['first_name']}} </p>
                     </div>
                     <div class="col-md-6 mb-3">
-                        Last Name: Choi
+                        <p>Last Name: {{ request.form['last_name']}} </p>
                     </div>
                 </div>
   
                 <div class="mb-3">
-                    Your Student ID: 123-456-7890
+                    <p>Your Student ID: {{ request.form['student_id']}} </p>
                 </div>
               
                 <hr class="mb-4">
